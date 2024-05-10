@@ -1,6 +1,6 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 
-const server_address = "192.168.63.140:8000";
+const server_address = "localhost:8000";
 
 export const login = createAsyncThunk("user/login", async ({ username, password }) => {
     try {

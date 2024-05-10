@@ -2,7 +2,7 @@ import { connect, sendMessage, connectionEstablished, connectionFailed, disconne
 import { setUsers, addUser, removeUser, updateStatus } from "./channel-slice";
 import { addWord, setGameId, setGameStatus, setInitialLetter, setRequestDetails, setWaiting, setWordCheckResults, setError, setWords, setResults, setOpponentsWords, updateRowOpponentsWords, setOpponent } from "./game-slice";
 
-const server_address = "192.168.63.140:8000";
+const server_address = "localhost:8000";
 
 const heartbeatInterval = 7000;
 let socket = null;
